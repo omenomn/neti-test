@@ -16,6 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-	dd('test');
-    return view('welcome');
+    return view('test');
 })->name('test');
